@@ -1,0 +1,10 @@
+<form nz-form>
+  <nz-form-item>
+    <nz-form-label>Введите данные</nz-form-label>
+    <input nz-input placeholder="ЗДЕСЬ МОГЛА БЫТЬ ВАША РЕКЛАМА"  nzSize="default"/>
+  </nz-form-item>
+  </form>
+  <div *nzModalFooter>
+    <button nz-button nzType="default" (click)="destroyModal()">Отмена</button>
+    <button nz-button nzType="primary" (click)="destroyModal()">Отправить</button>
+  </div>

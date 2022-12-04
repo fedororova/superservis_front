@@ -1,0 +1,12 @@
+<nz-card [nzExtra]="extraTemplate" [nzTitle]="titleTemplate" class="nz-card">
+  <ng-template #titleTemplate>
+    <nz-card-meta nzTitle="Услуга 1"></nz-card-meta>
+  </ng-template>
+  <ng-template #extraTemplate>
+    <a (click)="showModal()">Получить</a>
+  </ng-template>
+  <div class="div">
+    <p>Онлайн</p>
+    <p>10 дней</p>
+  </div>
+</nz-card>

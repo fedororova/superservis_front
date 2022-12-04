@@ -1,0 +1,9 @@
+.nz-card{
+    margin-top: 25px;
+    margin-left: 55px;
+    width: 300px;
+}
+.div{
+    display:flex;
+    justify-content:space-between;
+}
